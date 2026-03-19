@@ -1,6 +1,7 @@
 # Bitácora de arranque - Pedro Columna
 
 **Fecha:** 19/03/2026
+
 **Duración estimada:** 2 horas
 
 
@@ -36,7 +37,7 @@ Parando a la frontera del sistema de archivos (GIT_DISCOVERY_ACROSS_FILESYSTEM n
 
 ## Como lo resolví
 
-Esta falla sucedió porque no había entrado a la carpeta del repositorio, para corregirlo solo ingresé a la carpeta:
+Esta falla sucedió porque no había entrado a la carpeta del repositorio, para corregirlo solo ingresé a su carpeta:
 
 cd arranque-linux-Pedro_Columna
 
@@ -47,7 +48,7 @@ git checkout -b semana2-arranque
 
 Y me saltó el mensaje “Cambiado a nueva rama ‘semana2-arranque’”
 
-#----------------------------------------------------------------#
+
 
 7- Como no tenía archivo README.md lo creé con nano.
 
@@ -57,9 +58,77 @@ nano README.md
 
 Nota: Para guardar el contenido apreté Ctrl + O y para salir de nano Ctrl + X
 
+9- Del mismo modo cree el archivo bitacora.md. Que es el presente archivo.
+
+nano bitacora.md
+
 ## Comandos destacados
 
+Una vez acabe de hacer mis dos archivos .md utilice los siguiente comandos de Git.
 
+git status --------------------------------------------------------- Nos muestra los archivos que hemos modificado, o los que agregamos, también muestra en que rama estamos para subir un cambio
+
+git add . ---------------------------------------------------------- Prepara los archivos de la carpeta actual para enviarlos
+
+git commit -m "mensaje" -------------------------------------------- Este comando nos ayuda a poner una descripcion de los cambios realizados.
+
+git push origin semana2-arranque------------------------------------ Este comando envia los commits a la nube de GitHub
+
+git config --global user.email "tu-correo-de-github@ejemplo.com ---- El comando config nos permite configurar git de forma global para vincular nuestro email
+
+git config --global user.name "Pedro Columna" --------------------- Nos permite configurar git de forma global para vincular nuestro usuario
+
+
+## Problema encontrado 2
+
+Al momento de hacer el commit me salió el siguiente error
+
+*** Por favor cuéntame quién eres.
+
+Ejecuta
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Tu Nombre"
+
+para configurar la identidad por defecto de tu cuenta.
+Omite --global para configurar tu identidad solo en este repositorio.
+
+
+Para solucionarlo ejecute los comandos que presenta el error junto con mi correo electronico y mi nombre de usuario de Git.
+
+git config --global user.email "pe_droantonio@hotmail.com"
+git config --global user.name "pedrocolumnaalv"
+
+Una vez hecho pude hacer mi commit sin problemas.
+
+10- Hice un push para subir mis archivos a GitHub
+
+git push origin semana2-arranque
+
+11- Aqui Git me pidió autenticarme con mi usuario y mi token
+
+
+Luego  di permisos de repo, haciendo checklist en la casilla del mismo nombre
+Y por ultimo click al boton verde Generate Token
+
+## Resultado de git log –oneline
+
+## Higiene digital aplicada 
+
+MFA
+
+Apliqué el segundo factor de autenticación, para ello en GitHub me dirigí a la siguiente ruta:
+Settings > Password and authentication  > Two Factor Authentication
+Después en mi celular descargué Authenticator para escanear el codigo QR. Una vez escaneado ingrese el número de 6 digitos en la casilla Verify Code
+
+Token
+
+Para hacer un token ingrese a esta ruta en GitHub 
+
+Settings > Developer Settings > Personal Access Tokens > Tokens classic.
+
+Luego  di permisos de repo, haciendo checklist en la casilla del mismo nombre
+Y por ultimo hize click al boton verde Generate Token
 
 
 
