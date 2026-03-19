@@ -110,6 +110,7 @@ git commit -m "Esta es la primera versión de mis archivos bitacora y README"
 git push origin semana2-arranque
 
 11- Aqui Git me pidió autenticarme con mi usuario y mi token
+12- Una vez hecho entro a GitHub donde se han subido mis archivos
 
 
 
