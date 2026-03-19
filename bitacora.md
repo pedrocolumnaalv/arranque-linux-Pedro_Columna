@@ -99,7 +99,8 @@ Omite --global para configurar tu identidad solo en este repositorio.
 Para solucionarlo configuré mi usuario y correo electronico con los comandos indicados en el mensaje de error de la siguiente manera:
 
 git config --global user.email "pe_droantonio@hotmail.com"
-git config --global user.name "pedrocolumnaalv"
+
+git config --global user.name "pedrocolumnaalv" 
 
 11- Una vez hecho pude hacer mi commit sin problemas con el siguiente comando.
 
@@ -110,6 +111,7 @@ git commit -m "Esta es la primera versión de mis archivos bitacora y README"
 git push origin semana2-arranque
 
 11- Aqui Git me pidió autenticarme con mi usuario y mi token
+
 12- Una vez hecho entro a GitHub donde se han subido mis archivos
 
 
