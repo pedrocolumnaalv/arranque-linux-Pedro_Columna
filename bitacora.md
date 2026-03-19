@@ -96,7 +96,7 @@ Omite --global para configurar tu identidad solo en este repositorio.
 ## Como lo resolví
 
 
-Para solucionarlo ejecute los comandos indicados en el mensaje de error junto con mi correo electronico y mi nombre de usuario de Git, de la siguiente manera:
+Para solucionarlo configuré mi usuario y correo electronico con los comandos indicados en el mensaje de error de la siguiente manera:
 
 git config --global user.email "pe_droantonio@hotmail.com"
 git config --global user.name "pedrocolumnaalv"
