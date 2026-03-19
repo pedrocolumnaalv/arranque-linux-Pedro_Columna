@@ -102,7 +102,7 @@ git config --global user.email "pe_droantonio@hotmail.com"
 
 git config --global user.name "pedrocolumnaalv" 
 
-11- Una vez hecho pude hacer mi commit sin problemas con el siguiente comando.
+Una vez hecho pude hacer mi commit sin problemas con el siguiente comando.
 
 git commit -m "Esta es la primera versión de mis archivos bitacora y README"
 
