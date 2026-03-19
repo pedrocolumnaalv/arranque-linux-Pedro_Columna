@@ -92,7 +92,8 @@ Ejecuta
 
 para configurar la identidad por defecto de tu cuenta.
 Omite --global para configurar tu identidad solo en este repositorio.
----------------------------------------------------------------------------------
+
+## Como lo resolví
 
 
 Para solucionarlo ejecute los comandos indicados en el mensaje de error junto con mi correo electronico y mi nombre de usuario de Git, de la siguiente manera:
@@ -100,7 +101,8 @@ Para solucionarlo ejecute los comandos indicados en el mensaje de error junto co
 git config --global user.email "pe_droantonio@hotmail.com"
 git config --global user.name "pedrocolumnaalv"
 
-11- Una vez hecho pude hacer mi commit sin problemas.
+11- Una vez hecho pude hacer mi commit sin problemas con el siguiente comando.
+
 git commit -m "Esta es la primera versión de mis archivos bitacora y README"
 
 10- Hice un push para subir mis archivos a GitHub
@@ -113,7 +115,7 @@ git push origin semana2-arranque
 
 ## Resultado de git log –oneline
 
-
+![Evidencia git log](captura.png)
 
 ## Higiene digital aplicada 
 
