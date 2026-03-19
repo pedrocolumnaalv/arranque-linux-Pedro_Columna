@@ -112,7 +112,7 @@ git push origin semana2-arranque
 
 11- Aqui Git me pidió autenticarme con mi usuario y mi token
 
-12- Una vez hecho entro a GitHub donde se han subido mis archivos
+12- Una vez hecho entro a GitHub para corroborar que efectivamente se hayan subido los archivos
 
 
 
